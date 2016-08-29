@@ -72,6 +72,11 @@
     <action path="/html-setters-submit" type="org.apache.struts.webapp.exercise.HtmlSettersAction" name="testbean" scope="session" validate="false">
       <forward name="input" path="/html-setters.do" />
     </action>
+    <action path="/html-text" forward="/html-text.jsp" />
+    <action path="/html-text-submit" type="org.apache.struts.webapp.exercise.HtmlSettersAction" name="testbean" scope="session" validate="false">
+      <forward name="input" path="/html-text.do" />
+    </action>
+
     <action path="/logic-forward" forward="/logic-forward.jsp" />
     <action path="/logic-forward-test-forward" forward="/logic-forward-test-forward.jsp" />
     <action path="/logic-redirect-test-action" forward="/logic-redirect-test-action.jsp" />

@@ -28,6 +28,9 @@
 	<br>
 		<p>Enter a message (you may use html tags):<br />
 			<html:textarea property="message" cols="40" rows="6" />		
+		</p>		
+		<p>Enter a message (you may use html tags):<br />
+			<html:text property="message2"  size="80" maxlength="80" />		
 		</p>
 		<hr noshade="noshade" />   
 		<p>

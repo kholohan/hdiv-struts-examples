@@ -54,6 +54,8 @@
     <li>&lt;html:rewrite&gt; [:TODO:]</li>
 
     <li><html:link href="html-select.do">&lt;html:select&gt;</html:link></li>
+    
+    <li><html:link href="html-text.do">&lt;html:text&gt;</html:link></li>
 
     <li><html:link href="html-setters.do">Scalar Setters</html:link></li>
 

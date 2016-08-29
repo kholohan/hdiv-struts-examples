@@ -28,6 +28,9 @@
 		<p>Enter a message (you may use html tags):<br />
 			<html:textarea property="message" cols="40" rows="6" />		
 		</p>
+		<p>Enter a message (you may use html tags):<br />
+			<html:text property="message2" />		
+		</p>
 		<hr noshade="noshade" />   
 		<p>
 		<html:submit>Submit</html:submit>
